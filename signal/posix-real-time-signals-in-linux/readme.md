@@ -122,5 +122,6 @@ int sigtimedwait(const sigset_t* set, siginfo_t* info, const struct timespec* ti
 __`sigtimedwait`__ is similar to __`sigwaitinfo`__, except that the maximum time of wait is as specified in the structrue pointed by the third parameter: __timeout__. if timeout occurs and no signal is pending, __`sigtimedwait`__ return __-1__ with errno set to __EAGIN__
 
 # 5 An example Using real-time signal
+[posix real-time signals in linux](https://www.softprayog.in/programming/posix-real-time-signals-in-linux)
 
 
